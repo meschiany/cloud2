@@ -63,5 +63,4 @@ http.createServer(function(req, res) {
 	}
 	else
 		res.end(ret)
-}).listen(80, '127.0.0.1');
-console.log('Server running at http://127.0.0.1:80/');
+}).listen(8080);
